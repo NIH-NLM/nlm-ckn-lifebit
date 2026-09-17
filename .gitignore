@@ -1,0 +1,14 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Generated outputs (contain internal bucket, workspace, user and job IDs)
+out/*
+!out/.gitkeep
+
+# Never commit Lifebit credentials
+.cloudos/
+credentials
+
+.DS_Store

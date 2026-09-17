@@ -1,0 +1,13 @@
+[project]
+name = "nlm-ckn-lifebit"
+version = "0.1.0"
+description = "NLM-CKN tooling for sc-nsforest-qc-nf outputs on the Lifebit platform"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "cloudos-cli==2.95.1",
+    "requests>=2.28",
+]
+
+[tool.uv]
+package = false
